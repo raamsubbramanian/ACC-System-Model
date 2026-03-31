@@ -40,7 +40,7 @@ The system consists of the following components:
 ### Decision Logic
 - Minimum selector block (`min()`)
 
-### 📏 Distance Estimation
+### Distance Estimation
 - Lead vehicle distance (integrated)
 - Ego vehicle distance (integrated)
 
@@ -103,7 +103,7 @@ Maintains safe following distance:
 ### Decision Logic (Key Concept)
 - FinalAccCmd = min(AccCmdSpeed, AccCmdDistance)
 
-✔ Ensures:
+ Ensures:
 - Safe operation always has priority
 - Braking overrides acceleration when needed
 
@@ -139,7 +139,7 @@ Maintains safe following distance:
 ---
 
 
-## 🛠 Tools Used
+## Tools Used
 
 - MATLAB
 - Simulink
